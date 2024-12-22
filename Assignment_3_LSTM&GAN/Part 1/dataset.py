@@ -7,7 +7,6 @@ import math
 import numpy as np
 import torch.utils.data as data
 
-
 class PalindromeDataset(data.Dataset):
 
     def __init__(self, input_length, total_len, one_hot=False):
