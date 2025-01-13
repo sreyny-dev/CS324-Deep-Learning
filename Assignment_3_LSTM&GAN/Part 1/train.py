@@ -17,7 +17,7 @@ from torch.utils.data import Subset
 import random
 
 CONFIG_DEFAULT = {
-    'input_length': 20,
+    'input_length': 3,
     'input_dim': 1,
     'num_classes': 10,
     'num_hidden': 128,
@@ -197,7 +197,7 @@ if __name__ == "__main__":
                         help='Portion of the total dataset used for training')
 
 
-    csv_file = 'result/t20.csv'
+    csv_file = 'result/t3.csv'
     config = None
     # Train the model
     main(config, csv_file)
